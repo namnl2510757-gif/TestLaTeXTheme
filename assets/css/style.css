@@ -125,22 +125,10 @@ a {
 }
 
 /* Social Media */
-ul.social-media { 
+ul.social-media li { 
   text-align: center;
   padding: 0 0 10px 0;
-  li {
-    display: inline-block;
-  }
-  li > a {
-    width: 45px;
-    height: 45px;
-    @include transition(color 0.2s);
-    display: inline-block;
-    color:black;
-    &:hover {
-      color:rgb(50, 78, 192);
-    }
-  }
+  display: inline-block;
 }
 
 
