@@ -136,9 +136,9 @@ ul.social-media {
     height: 45px;
     @include transition(color 0.2s);
     display: inline-block;
-    color:black;
+    color: white;
     &:hover {
-      color:aquamarine;
+      color:aliceblue;
     }
   }
 }
