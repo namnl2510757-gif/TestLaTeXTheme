@@ -125,7 +125,7 @@ a {
 }
 
 /* Social Media */
-ul.social-media li { 
+.footter .social-media ul li { 
   text-align: center;
   padding: 0 0 10px 0;
   display: inline-block;
