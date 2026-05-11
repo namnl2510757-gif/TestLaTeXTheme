@@ -12,7 +12,7 @@
 .LatexTitle{
     font-family: CMR;
     font-size: 40px;
-    padding-top: 40vh;
+    padding-top: 0vh;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -97,6 +97,12 @@
     margin-bottom: 45px;
     line-height: 125%;
     column-count: 2;
+}
+
+/* Link */
+.BodyText a {
+    color:rgb(50, 78, 192); 
+    text-decoration: none;
 }
 
 /* Chân trang */
