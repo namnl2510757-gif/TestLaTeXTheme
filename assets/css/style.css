@@ -112,7 +112,7 @@ a {
 }
 
 .footer-distributed {
-  background-color:aliceblue;
+  background-color:black;
   font: normal 16px;
   font-family: 'Times New Roman', Times, serif;
   padding: 20px 25px;
@@ -136,9 +136,9 @@ ul.social-media {
     height: 45px;
     @include transition(color 0.2s);
     display: inline-block;
-    color: white;
+    color:black;
     &:hover {
-      color:aliceblue;
+      color:rgb(50, 78, 192);
     }
   }
 }
