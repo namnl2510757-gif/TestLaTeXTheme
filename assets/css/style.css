@@ -100,7 +100,7 @@
 }
 
 /* Link */
-.BodyText a {
+a {
     color:rgb(50, 78, 192); 
     text-decoration: none;
 }
