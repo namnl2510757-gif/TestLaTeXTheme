@@ -138,7 +138,7 @@ ul.social-media {
     display: inline-block;
     color: white;
     &:hover {
-      color: $accent-color;
+      color:aliceblue;
     }
   }
 }
