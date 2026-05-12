@@ -1,3 +1,15 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.gscrollbar-fixer {
+    margin-right: 10px;
+}
+
+.glightbox-open {
+    overflow: hidden;
+}
+
 @font-face {
     font-family: CMR;
     src: url(../fonts/cmuserif_roman_macroman/cmunrm-webfont.woff);
@@ -118,6 +130,12 @@ img {
   max-height: 80%;
   text-align: center;
   display: block;
+  transition: all .35s ease-in-out;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 
 figcaption {
