@@ -129,7 +129,7 @@ figcaption {
 
 /* Danh sách */
 
-.custom-marker {
+li {
     font-family: CMR;
     font-size: 23px;
     margin-top: 0px;
