@@ -129,12 +129,19 @@ figcaption {
 
 /* Danh sách */
 
-ul ol li {
+.custom-marker {
     font-family: CMR;
     font-size: 23px;
     margin-top: 0px;
     text-align: justify;
     margin-bottom: 5px;
+}
+
+/* Mathjax */
+.MathJax {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
 }
 
 /* Chân trang */
@@ -204,9 +211,3 @@ ul ol li {
     font-size: 33px;
 }
 
-/* Mathjax */
-.MathJax {
-  overflow-x: auto;
-  overflow-y: hidden;
-  max-width: 100%;
-}
