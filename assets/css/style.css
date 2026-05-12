@@ -101,6 +101,10 @@
     column-count: 2;
 }
 
+/* In đậm, in nghiêng */
+
+
+
 /* Link */
 a {
     color:rgb(50, 78, 192); 
@@ -110,8 +114,8 @@ a {
 /* Chèn ảnh */
 img {
   margin: 0 auto;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 80%;
+  max-height: 80%;
   text-align: center;
   display: block;
 }
