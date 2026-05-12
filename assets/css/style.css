@@ -118,13 +118,8 @@ img {
   max-height: 80%;
   text-align: center;
   display: block;
-  transition: all .35s ease-in-out;
 }
 
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
 
 figcaption {
     margin-top: 20px;
