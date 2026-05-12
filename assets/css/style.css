@@ -1,15 +1,3 @@
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-
-.gscrollbar-fixer {
-    margin-right: 10px;
-}
-
-.glightbox-open {
-    overflow: hidden;
-}
-
 @font-face {
     font-family: CMR;
     src: url(../fonts/cmuserif_roman_macroman/cmunrm-webfont.woff);
