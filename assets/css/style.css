@@ -1,5 +1,12 @@
-body {
-      font-family: "Computer Modern Serif", serif;
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('cmunrm.eot');
+	src: url('cmunrm.eot?#iefix') format('embedded-opentype'),
+		 url('cmunrm.woff') format('woff'),
+		 url('cmunrm.ttf') format('truetype'),
+		 url('cmunrm.svg#cmunrm') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* Tiêu đề LaTeX */
