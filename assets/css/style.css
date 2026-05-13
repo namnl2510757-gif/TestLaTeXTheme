@@ -5,7 +5,6 @@
 		 url('cmunrm.woff') format('woff'),
 		 url('cmunrm.ttf') format('truetype'),
 		 url('cmunrm.svg#cmunrm') format('svg');
-	font-weight: normal;
 	font-style: normal;
 }
 
@@ -93,10 +92,6 @@
     line-height: 125%;
     column-count: 2;
 }
-
-/* In đậm, in nghiêng */
-
-
 
 /* Link */
 a {
