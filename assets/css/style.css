@@ -1,16 +1,10 @@
-@font-face {
-    font-family: CMR;
-    src: url(../fonts/cmuserif_roman_macroman/cmunrm-webfont.woff);
-  }
-  @font-face {
-    font-family: CMB;
-    src: url(../fonts/cmuserif_bold_macroman/cmunbx-webfont.woff);
-  }
+body {
+      font-family: "Computer Modern Serif", serif;
+}
 
 /* Tiêu đề LaTeX */
 
-.LatexTitle{
-    font-family: CMR;
+.LatexTitle{ 
     font-size: 40px;
     padding-top: 0vh;
     text-align: center;
@@ -18,13 +12,11 @@
 }
 
 .LatexName{
-    font-family: CMR;
     font-size: 27px;
     text-align: center;
     margin-bottom: 13px;
 }
 .LatexDate{
-    font-family: CMR;
     font-size: 27px;
     text-align: center;
     margin-top: 13px;
@@ -32,7 +24,6 @@
 }
 
 .LatexAbstract{
-    font-family: CMB;
     font-weight: bold;
     font-size: 25px;
     text-align: center;
@@ -41,7 +32,6 @@
 
 .LatexAbstractText{
     margin-top:10px;
-    font-family: CMR;
     font-size: 21px;
     text-align: center;
     text-align: justify;
@@ -62,7 +52,6 @@
 /* Phân mục  */
 .Section{
     font-weight:500;
-    font-family: CMB;
     font-size: 33px;
     text-align: Left;
     margin-top: 13px;
@@ -72,7 +61,6 @@
 
 .SubSection{
     font-weight:500;
-    font-family: CMB;
     font-size: 29px;
     text-align: Left;
     margin-top: 13px;
@@ -82,7 +70,6 @@
 /* Văn bản */
 
 .BodyText{
-    font-family: CMR;
     font-size: 23px;
     margin-top: 0px;
     text-align: justify;
@@ -92,7 +79,6 @@
 }
 
 .BodyText2Col{
-    font-family: CMR;
     font-size: 23px;
     margin-top: 13px;
     text-align: justify;
@@ -130,7 +116,6 @@ figcaption {
 /* Danh sách */
 
 li {
-    font-family: CMR;
     font-size: 23px;
     margin-top: 0px;
     text-align: justify;
@@ -153,7 +138,6 @@ li {
 .footer-distributed {
   background-color:black;
   font: normal 16px;
-  font-family: 'Times New Roman', Times, serif;
   padding: 20px 25px;
   margin-top: 80px;
   text-align: center;
